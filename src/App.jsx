@@ -6,10 +6,12 @@ import StudentsTable from "./components/students-table";
 function App() {
   return (
     <>
-      <Navbar />
-      <HeroSection />
-      <StudentsTable />
-      <Footer />
+      <div className="bg-[#172227] font-[Inter] text-white">
+        <Navbar />
+        <HeroSection />
+        <StudentsTable />
+        <Footer />
+      </div>
     </>
   );
 }
