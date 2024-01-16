@@ -5,14 +5,12 @@ import StudentsSection from "./components/students-section";
 
 function App() {
   return (
-    <>
-      <div className="bg-[#172227] font-[Inter] text-white">
-        <Navbar />  
-        <HeroSection />
-        <StudentsSection />
-        <Footer />
-      </div>
-    </>
+    <div className="bg-[#172227] font-[Inter] text-white">
+      <Navbar />
+      <HeroSection />
+      <StudentsSection />
+      <Footer />
+    </div>
   );
 }
 
